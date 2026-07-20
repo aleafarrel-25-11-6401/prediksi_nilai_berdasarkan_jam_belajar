@@ -1,0 +1,39 @@
+=============================================
+   HASIL ANALISIS - PREDIKSI NILAI MAHASISWA
+=============================================
+Judul Proyek : Prediksi Nilai Ujian Berdasarkan Jam Belajar
+Nama         : Alea Farrel
+NIM          : 25.11.6401
+
+--- STATISTIK DATASET ---
+Total Data              : 9999 baris
+Missing Values          : 0
+Korelasi (Jam vs Nilai) : 0.9850
+
+Statistik Jam Belajar (per hari):
+  Rata-rata  : 3.47 jam
+  Tertinggi  : 6.50 jam
+  Terendah   : 0.50 jam
+
+Statistik Nilai Ujian:
+  Rata-rata  : 64.86
+  Tertinggi  : 100.00
+  Terendah   : 19.40
+
+--- MODEL REGRESI LINEAR ---
+Data Split   : 7999 Train | 2000 Test (80:20)
+Persamaan    : Nilai = 11.44 * Jam_Belajar/Hari + 25.18
+
+Evaluasi Model:
+  MAE   : 2.7996  (Mean Absolute Error)
+  MSE   : 12.3009  (Mean Squared Error)
+  RMSE  : 3.5073  (Root Mean Squared Error)
+  R2    : 0.9701  (Koefisien Determinasi)
+
+--- RATA-RATA NILAI PER KATEGORI JAM BELAJAR ---
+  < 2 jam   : Rata-rata Nilai = 39.72  (n=2635)
+  2-4 jam   : Rata-rata Nilai = 60.20  (n=3381)
+  4-6 jam   : Rata-rata Nilai = 82.83  (n=3236)
+  6-8 jam   : Rata-rata Nilai = 96.75  (n=747)
+
+=============================================

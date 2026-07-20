@@ -1,10 +1,10 @@
 === README - PREDIKSI NILAI UJIAN MAHASISWA ===
-Berdasarkan Jam Belajar | Simple Linear Regression
+<br>Berdasarkan Jam Belajar | Simple Linear Regression
 
-Nama : Alea Farrel 
-NIM  : 25.11.6401
-Kelas: IF03 / S1-Informatika
-Mata Kuliah : Pengantar Sains Data
+- Nama : Alea Farrel 
+- NIM  : 25.11.6401
+- Kelas: IF03 / S1-Informatika
+- Mata Kuliah : Pengantar Sains Data
 
 DESKRIPSI PROYEK
 -----------------
